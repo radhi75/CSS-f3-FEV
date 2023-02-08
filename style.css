@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Green-Tropical-Plant-Wallpaper-Mural-Plain.webp);
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+#home{
+    border: 1px solid black;
+    margin: 2%;
+    padding: 1%;
+    background-color: rgba(120, 245, 120, 0.393);
+    border-radius: 4%;
+}
+#profil-photo{
+    width: 200px;
+}
+.para{
+    margin: 2% 0 1% 0;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#Project{
+    border: 1px solid black;
+    margin: 2%;
+        padding: 1%;
+        background-color: rgba(120, 245, 120, 0.393);
+            border-radius: 4%;
+}
+.project-img{
+    width: 200px;
+    height: 350px;
+   opacity: 50%;
+   border-radius: 5%;
+}
+.project-img:hover{
+    cursor: grab;
+    opacity: 100%;
+    transform: scaleY(1.1);
+}
+h1{
+    color: pink;
+}
+#contact{
+    border: 1px solid black;
+        margin: 2%;
+        padding: 1%;
+        padding-left: 40%;
+        background-color: rgba(120, 245, 120, 0.393);
+            border-radius: 4%;
+}
+input{
+    width: 240px;
+    
+    border: none;
+    
+    
+}
+label{
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
